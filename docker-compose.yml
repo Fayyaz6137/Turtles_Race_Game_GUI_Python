@@ -1,0 +1,8 @@
+services:
+  turtle-race:
+    build: .
+    container_name: turtle_race
+    environment:
+      - DISPLAY=host.docker.internal:0.0
+    volumes:
+      - .:/app
