@@ -52,8 +52,11 @@ turtle-race/
 
 ```bash
 git clone https://github.com/Fayyaz6137/Turtles_Race_Game_GUI_Python.git
+
 cd turtle-race-game-gui-python
+
 pip install -r requirements.txt
+
 python main.py
 ```
 
